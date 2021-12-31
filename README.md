@@ -4,4 +4,4 @@ The purpose of this repository is to teach the basics of go programming language
 
 The course is divided into multiple chapters. Some chapters may cover multiple topics.
 
-1. [Chapter 1 - Hello World Program](https://github.com/jithumohandas/learngo/chapter1)
+1. [Chapter 1 - Hello World Program](https://github.com/jithumohandas/learngo/tree/main/chapter1)

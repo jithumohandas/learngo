@@ -1,4 +1,4 @@
-# Chapter 1 - Hello World program
+# Chapter 1 - Hello World Program
 
 It is considered to be a custom to start any programming course by creating a **Hello World** program. The oethr motive is to shine light into the structure of a **Go** program. The feeling of running the first Go program is truly rewarding abd this would act as a motivation to move forward.
 
@@ -19,3 +19,9 @@ func main() {
   fmt.Println("Hello World")
 }
 ```
+
+After the ode is saved in file `main.go`, We can run the code using the following command
+
+> **go run main.go**
+
+This shall print the line `Hello World` in the console.
