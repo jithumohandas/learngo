@@ -49,16 +49,17 @@ There are 2 types of packages in Go pgramming language.
 
 | Package Type   | Use of package                                                                                                                                                                                                    |
 | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Executable** | The executable package shall start with `package main`. On ef the files belong to this package shall contain a `main` function. This main function is the starting point of the program execution.                |
+| **Executable** | The executable package shall start with `package main`. One of the files belong to this package shall contain a `main` function. This main function is the starting point of the program execution.               |
 | **Reusable**   | The reusable package are those packages which can be used in other programs using the `import` statement. This packages can have any name other than the package name 'main' or any existing package names of Go. |
 
 Our `main.go` program is an executable and hence we have used the package name `main` in the code.
 
-> **Note : ** Any function belongs to the same package can be called in any files belongs to the same package, even the file doesn't contain the function definition.
+> **Note:**
+> Any function belongs to the same package can be called in any files belongs to the same package, even the file doesn't contain the function definition.
 
 ### 2. Importing Required Packages
 
-The `fmt` package is imported in the program to use it to print the output to the console. It has everal other formatting functions within the package which we are not using in this program.
+The `fmt` package is imported in the program to print the output to the console. This package has everal other formatting functions which we are not using in this program.
 
 ```go
 import "fmt"
