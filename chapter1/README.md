@@ -1,6 +1,6 @@
 # Chapter 1 - Hello World Program
 
-It is considered to be a custom to start any programming course by creating a **Hello World** program. The oethr motive is to shine light into the structure of a **Go** program. The feeling of running the first Go program is truly rewarding abd this would act as a motivation to move forward.
+It is considered to be a custom to start any programming course by creating a **Hello World** program. This also helps to understand the structure of a **Go** program. The feeling of running the first Go program is truly rewarding and this would act as a motivation to move forward.
 
 This chapter has two prerequisites.
 
@@ -8,7 +8,7 @@ This chapter has two prerequisites.
 >
 > 2.  You are expected to have a Go programming editor
 
-If the previous prerequisites are fulfilled, lets open the code editor and create a file named `main.go` with te following code.
+If the prerequisites are fulfilled, lets open the code editor and create a file named `main.go` with the following code.
 
 ```go
 package main
@@ -20,7 +20,10 @@ func main() {
 }
 ```
 
-After the ode is saved in file `main.go`, We can run the code using the following command
+> **Note:**
+> This code is available in this folder as `main.go` file.
+
+After the code is saved in a file - `main.go`, We can run the code using the following command
 
 > **go run main.go**
 
