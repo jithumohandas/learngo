@@ -28,3 +28,50 @@ After the code is saved in a file - `main.go`, We can run the code using the fol
 > **go run main.go**
 
 This shall print the line `Hello World` in the console.
+
+## Structure of Go Program
+
+There are 3 main sections in the above program.
+
+1. Defining Package
+2. Importing Required Packages
+3. The Executable Logic
+
+### 1. Defining Package
+
+The package definition is the first line of a go program.
+
+```go
+package main
+```
+
+There are 2 types of packages in Go pgramming language.
+
+| Package Type   | Use of package                                                                                                                                                                                                    |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Executable** | The executable package shall start with `package main`. On ef the files belong to this package shall contain a `main` function. This main function is the starting point of the program execution.                |
+| **Reusable**   | The reusable package are those packages which can be used in other programs using the `import` statement. This packages can have any name other than the package name 'main' or any existing package names of Go. |
+
+Our `main.go` program is an executable and hence we have used the package name `main` in the code.
+
+> **Note : ** Any function belongs to the same package can be called in any files belongs to the same package, even the file doesn't contain the function definition.
+
+### 2. Importing Required Packages
+
+The `fmt` package is imported in the program to use it to print the output to the console. It has everal other formatting functions within the package which we are not using in this program.
+
+```go
+import "fmt"
+```
+
+### 3. The Executable Logic
+
+The following section contains the logic part of the program.
+
+```go
+func main() {
+  fmt.Println("Hello World")
+}
+```
+
+This section is responsible for printing the `Hello World` text to the screen.
