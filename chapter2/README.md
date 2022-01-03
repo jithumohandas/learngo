@@ -31,3 +31,28 @@ func main() {
 	fmt.Println(onStatus)
 }
 ```
+
+The type annotations are explicitly mentioned with each variable above. There is a better and short way of declaring variables and assigning value. The type is inferred by go based on the value assigned to the variable.
+
+```go
+// var name string = "Google"
+name := "google"
+
+// var age int = 24
+age := 24
+
+// var cost float64 = 112.65
+cost := 112.65
+
+// var onStatus bool = true
+onStatus :=true
+```
+
+> **Note:**
+> The `:=` is only required for the first assignment of the value. When the variable is asisgned with a new value, we can just use `=`.
+
+```go
+name := "Google"
+
+name = "Microsoft"
+```
