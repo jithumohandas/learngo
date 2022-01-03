@@ -49,6 +49,7 @@ onStatus :=true
 ```
 
 > **Note:**
+>
 > The `:=` is only required for the first assignment of the value. When the variable is asisgned with a new value, we can just use `=`.
 
 ```go
