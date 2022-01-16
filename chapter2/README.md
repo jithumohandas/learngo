@@ -67,4 +67,4 @@ name = "Microsoft"
 ```
 
 > **Complex Types**
-> Go has complex variables as one of the types. Hence it is not a widely used option. there are some discussions to remove it in the upcoming versions of Go.
+> Go has complex variables as one of the types. Since it is not a widely used option. there are some discussions to remove it in the upcoming versions of Go.
