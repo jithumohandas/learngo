@@ -1,6 +1,6 @@
 # Chapter 2 - Variable Types and Declarations
 
-There are four basic variable types in go. This chapter discuss these variable types and how the variable declaratio is done in go programs.
+There are four basic variable types in go. This chapter discuss these variable types and how the variable declaration is done in go programs.
 We also take a deeper look at some of the very useful and handy go commands.
 
 ## Basic Go Data Types
@@ -32,7 +32,16 @@ func main() {
 }
 ```
 
-The type annotations are explicitly mentioned with each variable above. There is a better and short way of declaring variables and assigning value. The type is inferred by go based on the value assigned to the variable.
+The type annotations are explicitly mentioned with each variable above. The next approach to declare and initialize a variable is as shown below. Here the type is inferred by the value assigned to the variable.
+
+```go
+var name = "Google"
+var age = 24
+var onStatus = true
+var cost = 112.65
+```
+
+There is a better and short way of declaring variables and assigning value. The type is inferred by go based on the value assigned to the variable.
 
 ```go
 // var name string = "Google"
@@ -45,7 +54,7 @@ age := 24
 cost := 112.65
 
 // var onStatus bool = true
-onStatus :=true
+onStatus := true
 ```
 
 > **Note:**
@@ -56,3 +65,6 @@ name := "Google"
 
 name = "Microsoft"
 ```
+
+> **Complex Types**
+> Go has complex variables as one of the types. Hence it is not a widely used option. there are some discussions to remove it in the upcoming versions of Go.
